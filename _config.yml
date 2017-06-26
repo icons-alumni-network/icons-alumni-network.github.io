@@ -1,0 +1,44 @@
+exclude:
+  - "/vendor/"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "README.md"
+  - "LICENSE.md"
+  - "*.gemspec"
+  - "serve"
+
+keep_files:
+  - "CNAME"
+  - ".git"
+  - ".gitignore"
+
+
+# Site settings
+title: ICAN | Icons Alumni Network
+subtitle: "The official website for the alumni of the Integrated Concentration in Natural Science at UMass Amherst"
+basetitle: ICAN | 
+url: "www.iconsalumni.org" # the base hostname & protocol for your site
+baseurl: ""
+cover: "/assets/cover.png"
+logo: "/assets/logo.png"
+
+# Build settings
+markdown: kramdown
+
+# Google analytics
+# ga_tracking_id: "UA-XXXX-1"
+
+# Category descriptions (for archive pages)
+descriptions:
+  - cat: Service
+    desc: "Community service events"
+
+  - cat: Social
+    desc: "Social events for alumni"
+
+  - cat: General
+    desc: "General updates about ICAN"
+
+gems:
+  - jekyll-sitemap
+

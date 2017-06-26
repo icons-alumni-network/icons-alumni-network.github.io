@@ -1,0 +1,84 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+
+.italic {
+	font-style: italic;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.center-text {
+	text-align: center;
+}
+
+.post-area {
+	display: flex;
+	padding: 40px;
+	width: 100%;
+	min-height: 150px;
+	background-color: white;
+
+	&:not(:last-child) {
+		border-bottom: 1px solid #ddd;
+	}
+
+	img {
+		width: 100%;
+	}
+
+	.post-header {
+		border-bottom: 1px solid #ddd;
+		margin-bottom: 1em;
+	}
+
+	.post-body a:link {
+		font-size: 15px;
+	}
+
+	.post-link {
+		margin-top: 2em;
+	}
+
+}
+
+.post-area a:link, .post-area a:visited {
+	font-size: 30px;
+	color: #333;
+}
+
+.post-area a:hover {
+	color: #0D0017;
+}
+
+.navbar-brand {
+	padding: 5px 0;
+
+	img {
+		height: 100%;
+	}
+}
+
+#slider a {
+	color: white;
+	font-weight: 600;
+
+	&:hover {
+		color: white;
+		text-decoration: underline;
+	}
+}
+
+.social-link img {
+	max-width: 200px;
+	margin-bottom: 20px;
+	transition: filter 0.3s;
+
+	&:hover {
+		-webkit-filter: drop-shadow(0 0 7px rgba(0, 0, 0, 0.9));
+		filter: drop-shadow(0 0 7px rgba(0, 0, 0, 0.9));
+	}
+}

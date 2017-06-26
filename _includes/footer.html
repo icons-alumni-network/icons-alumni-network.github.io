@@ -1,0 +1,28 @@
+<!-- footer Start -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="footer-menu">
+          <ul>
+						{% assign page_list = site.pages | sort:"order" %}
+						{% for page in page_list %}
+							<li><a href="{{ page.url }}">{{ page.title }}</a></li>
+						{% endfor %}
+          </ul>
+        </div>
+        <p>Copyright &copy; Design &amp; Developed by the iCons Alumni Network, Inc.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Js -->
+<!-- Vendor -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+<script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
+<script src="{{ site.baseurl }}/js/plugins.js"></script>
+
+<!-- Custom -->
+<script src="{{ site.baseurl }}/js/main.js"></script>

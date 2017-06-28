@@ -14,8 +14,8 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             </button>
-						<a class="navbar-brand" href="{{ site.github.url }}">
-              <img src="{{ site.github.url }}/img/logo.svg" alt="Logo">
+						<a class="navbar-brand" href="/">
+              <img src="{{ site.baseurl }}/img/logo.svg" alt="Logo">
             </a>
           </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -23,7 +23,9 @@
               <ul class="nav navbar-nav navbar-right">
 								{% assign page_list = site.pages | sort:"order" %}
 								{% for page in page_list %}
-									<li><a href="{{ page.url }}">{{ page.title }}</a></li>
+								  {% if page.title %}
+										<li><a href="{{ page.url }}">{{ page.title }}</a></li>
+									{% endif %}
 								{% endfor %}
               </ul>
             </div><!-- /.navbar-collapse -->

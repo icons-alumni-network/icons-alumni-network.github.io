@@ -97,11 +97,25 @@
 	text-align: center;
 }
 
+.post {
+	padding: 0 10px;
+}
+
 .post-content p {
-	margin: 0 auto;
+	margin: 20px auto 0 auto;
 
 	&:not(.image) {
 		max-width: 45em;
+	}
+}
+
+.post-content blockquote {
+	max-width: 45em;
+	margin: 10px auto;
+	
+	> p {
+		padding-left: 20px;
+		margin-top: 0;
 	}
 }
 

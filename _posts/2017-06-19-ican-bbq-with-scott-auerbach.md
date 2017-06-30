@@ -9,7 +9,7 @@ Last weekend ICAN celebrated its one year anniversary with burgers, beers, and t
 Our annual Boston cookout was a great success, drawing a crowd of hungry young scientists, engineers, and students. Check out the pictures below, and head to our [Facebook](https://www.facebook.com/groups/iconsalumni/) page for more information.
 
 {: .image}
-<img src="/img/iCAN_cookout_062017_scaled.png" width="800" alt="group photo" />
+<img src="/img/2017_bbq/iCAN_cookout_062017_scaled.png" width="800" alt="group photo" />
 
 {: .image}
-<img src="/img/IMG_20170617_154224.jpg" width="800" alt="bbq action shot"/>
+<img src="/img/2017_bbq/IMG_20170617_154224.jpg" width="800" alt="bbq action shot"/>

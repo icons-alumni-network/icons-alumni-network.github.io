@@ -4,7 +4,7 @@ date: '2016-08-17'
 layout: post
 author: <a href="https://www.linkedin.com/in/kevin-cavanaugh-73262880/" target="_blank">Kevin Cavanuagh</a>
 ---
-On August 17, the network partnered with Junior Achievement of Northern New England for a round robin workshop in which alumni engaged with high school students for meaningful conversations about how to prepare for and excel in college and life after college. Five alumni traveled to Northeastern University to give a presentation called "Evolution of Life: Leaving the Nest" as part of Junior Achievement's annual Summer Institute. 
+On August 17, the network partnered with [Junior Achievement of Northern New England](http://janewengland.org/){:target="_blank"} for a round robin workshop in which alumni engaged with high school students for meaningful conversations about how to prepare for and excel in college and life after college. Five alumni traveled to Northeastern University to give a presentation called "Evolution of Life: Leaving the Nest" as part of Junior Achievement's annual Summer Institute. 
 
 {: .image}
 <img src="/img/ja-summer-institute/IMG_2987.JPG" />
@@ -14,7 +14,7 @@ Junior Achievement (JA) is an organization that's been around for nearly 100 yea
 {: .image}
 <img src="/img/ja-summer-institute/IMG_2983.JPG" />
 
-The "Evolution of Life: Leaving the Nest" was a round-robin format in which groups of 7-10 students would rotate between tables to have discussions regarding five different topics. Kevin Cavanaugh led a talk on budgeting, in which he discussed tips and tricks for saving money in college and post-college. John Charest discussed how to transition from high school to college and what roles and responsibilities students would soon be faced with.
+The "Evolution of Life: Leaving the Nest" was a round-robin format in which groups of 7-10 students would rotate between tables to have discussions regarding five different topics. [Kevin Cavanaugh](https://www.linkedin.com/in/kevin-cavanaugh-73262880/){:target="_blank"} led a talk on budgeting, in which he discussed tips and tricks for saving money in college and post-college. [John Charest](https://www.linkedin.com/in/john-charest-33386777/){:target="_blank"} discussed how to transition from high school to college and what roles and responsibilities students would soon be faced with.
 
 {: .image}
 <img src="/img/ja-summer-institute/IMG_2982.JPG" />
@@ -24,12 +24,12 @@ Isaac Han taught the students about professional development, including strategi
 {: .image}
 <img src="/img/ja-summer-institute/IMG_2980.JPG" />
 
-Nicole Foxworth talked about student life and ways to capitalize on all the various opportunities in college.
+[Nicole Foxworth](https://www.linkedin.com/in/nicole-foxworth-66421165/){:target="_blank"} talked about student life and ways to capitalize on all the various opportunities in college.
 
 {: .image}
 <img src="/img/ja-summer-institute/IMG_2981.JPG" />
 
-Sean McGrath offered up tips on time management and how best to manage time with all of the newfound independence students would soon be faced with. 
+[Sean McGrath](https://www.linkedin.com/in/seanrmcgrath/){:target="_blank"} offered up tips on time management and how best to manage time with all of the newfound independence students would soon be faced with. 
 
 {: .image}
 <img src="/img/ja-summer-institute/IMG_2984.JPG" />

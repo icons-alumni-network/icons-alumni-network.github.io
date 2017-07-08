@@ -7,7 +7,7 @@
           <ul>
 						{% assign page_list = site.pages | sort:"order" %}
 						{% for page in page_list %}
-							{% if page.title %}
+							{% if page.title and page.order %}
 								<li><a href="{{ page.url }}">{{ page.title }}</a></li>
 							{% endif %}
 						{% endfor %}

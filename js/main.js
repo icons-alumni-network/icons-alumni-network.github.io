@@ -57,7 +57,6 @@ var addAllMarkers = addMarker.bind(this, 0);
 
 function initMap () {
 	var responsive = $('nav').width() < 768;
-	debugger;
 	var map = new google.maps.Map(document.getElementById('alumni-map'), {
 		center: {lat: 41.24, lng: -53.67},
 		scrollwheel: false,

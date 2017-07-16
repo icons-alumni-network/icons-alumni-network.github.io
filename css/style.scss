@@ -95,6 +95,7 @@
 
 .social-wrapper {
 	text-align: center;
+	margin-top: 1em;
 }
 
 .post {
@@ -148,4 +149,14 @@ body {
 
 .about-us {
 	padding: 75px 20px;
+}
+
+#feature {
+	h2, p {
+		padding: 1em;
+		background-color: rgba(0,0,0,0.8);
+		color: white;
+		display: inline-block;
+		margin-bottom: 1em;
+	}
 }

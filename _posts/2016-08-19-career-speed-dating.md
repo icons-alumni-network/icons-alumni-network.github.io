@@ -2,7 +2,7 @@
 title: Service Event - Career Speed Dating Workshop
 date: '2016-08-19'
 layout: post
-author: <a href="https://www.linkedin.com/in/kevin-cavanaugh-73262880/" target="_blank">Kevin Cavanuagh</a> and <a href="https://www.linkedin.com/in/matthew-richard-9b5a6862/" target="_blank">Matt Richard</a>
+author: <a href="https://www.linkedin.com/in/kevin-cavanaugh-73262880/" target="_blank">Kevin Cavanaugh</a> and <a href="https://www.linkedin.com/in/matthew-richard-9b5a6862/" target="_blank">Matt Richard</a>
 category: service
 ---
 On August 17, the network partnered with [Junior Achievement of Northern New England](http://janewengland.org/){:target="_blank"} to give students a glimpse into the working world. [Matt Richard](https://www.linkedin.com/in/matthew-richard-9b5a6862/){:target="_blank"} and [Emily Travers](https://www.linkedin.com/in/emily-travers-72358497/){:target="_blank"} participated in a round-robin panel discussion called the "Careers Speed Dating Workshop" as part of Junior Achievement's annual Summer Institute.
@@ -20,7 +20,7 @@ Here's some feedback from the JA Summer Institute week-long event that highlight
 
 <i>Kelly N., Student Participant</i>
 
-> I loved being able to network with people across different field. Even if it wasn't a field I was interested in, they still offered advice.     
+> I loved being able to network with people across different fields. Even if it wasn't a field I was interested in, they still offered advice.     
 
 <i>Alyssa A., Student Participant</i>
 

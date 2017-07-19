@@ -141,6 +141,23 @@ body {
 
 .map-wrapper {
 	padding: 0;
+	position: relative;
+
+	.map-textbox-wrapper {
+		position: absolute;
+		display: flex;
+		justify-content: center;
+		width: 100%;
+	}
+
+	.map-textbox {
+		z-index: 100;
+		padding: 1em;
+		background-color: rgba(0,0,0,0.8);
+		color: white;
+		font-size: 1.5em;
+		margin-top: 20px;
+	}
 }
 
 .alumni-map {

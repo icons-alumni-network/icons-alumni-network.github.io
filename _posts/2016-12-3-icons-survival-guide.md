@@ -2,7 +2,7 @@
 title: Service Event - iCons Survival Guide
 date: '2016-12-03'
 layout: post
-author: Issac Han
+author: Isaac Han
 category: service
 ---
 As part of an effort to give back to the campus community, eight members of the network travelled back to campus in December of 2016 to present the iCons Survival Guide.

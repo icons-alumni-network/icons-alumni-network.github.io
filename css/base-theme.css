@@ -53,8 +53,6 @@ a:active {
 }
 .section-title h2 {
   text-transform: uppercase;
-  font-size: 28px;
-  font-weight: 600;
 }
 .section-title p {
   font-family: 'Volkhov', serif;
@@ -141,9 +139,6 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-top: 35px;
   line-height: 27px;
   margin: 0;
-}
-#intro .block p {
-  color: #7B7B7B;
 }
 #intro .block img {
   width: 100%;

@@ -102,12 +102,15 @@
 	padding: 0 10px;
 }
 
+.post-content {
+	padding-top: 10px;
+}
+
 .post-content p {
 	margin: 20px auto 0 auto;
-
-	&:not(.image) {
-		max-width: 45em;
-	}
+	font-size: 20px;
+	line-height: 38px;
+	max-width: 45em;
 }
 
 .post-content blockquote {
@@ -152,11 +155,13 @@ body {
 
 	.map-textbox {
 		z-index: 100;
-		padding: 1em;
-		background-color: rgba(0,0,0,0.8);
-		color: white;
-		font-size: 1.5em;
-		margin-top: 20px;
+		
+		h2 {
+			padding: 1em;
+			background-color: rgba(0,0,0,0.8);
+			color: white;
+			font-weight: 600;
+		}
 	}
 }
 

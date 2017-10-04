@@ -58,7 +58,8 @@ ICAN.map.alumniLocations = [
 	[36.1627, -86.7816],
 	[29.6197, -95.6349],
 	[29.7604, -95.3698],
-	[32.7555, -97.330]
+	[32.7555, -97.330],
+	[63.4305, 10.3951]
 ]
 
 ICAN.utils.shuffle(ICAN.map.alumniLocations);

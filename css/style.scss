@@ -169,7 +169,14 @@ body {
 	min-height: 500px;
 }
 
-.about-us {
+.text-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.about-us,
+.featured-post-text {
 	padding: 75px 20px;
 }
 
@@ -180,5 +187,22 @@ body {
 		color: white;
 		display: inline-block;
 		margin-bottom: 1em;
+	}
+}
+
+#featured-event {
+	background-color: #f8f8f8;
+
+	.img-wrapper {
+		padding: 0;
+
+		img {
+			width: 100%;
+		}
+	}
+
+	.events-link {
+		text-align: center;
+		margin-top: 2em;
 	}
 }

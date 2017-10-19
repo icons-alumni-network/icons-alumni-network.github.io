@@ -19,18 +19,46 @@ order: 1
     </div>
   </div>
 </section>
-<!-- Wrapper Start -->
+
+<section id="featured-event">
+	<div class="container-fluid">
+		<div class="row">
+			{% assign post = site.posts | first %}
+				{% assign images = post.content | split:"<img " %}
+				{% for image in images %}
+					{% if image contains 'src' %}
+						{% assign html = image | split:"/>" | first %}
+							<div class="col-md-6 img-wrapper">
+								<a href="{{ post.url }}"><img {{ html }} /></a>
+							</div>
+						{% break %}
+					{% endif %}
+				{% endfor %}
+      <div class="col-md-6 col-sm-12 text-wrapper">
+				<div class="col-md-8 col-sm-10 featured-post-text">
+					<h2>FEATURED EVENT</h2>
+					<a href="{{ post.url }}">
+						{{ post.title | replace: 'Social Event -', '' | replace: 'Service Event -', '' }} &mdash; {{ post.date | date_to_long_string }}</p>
+					</a>
+					<p>{{ post.excerpt | strip_html | truncate_words: 50 }}</p>
+					<h3 class="events-link"><a href="/events" target="_blank">See all our events</a></h3>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
 <section id="intro">
   <div class="container-fluid">
     <div class="row">
-      <div class="col-md-4 col-md-offset-2 col-sm-12">
-        <div class="about-us">
+      <div class="col-md-6 col-sm-12 text-wrapper">
+				<div class="col-md-8 col-sm-10 about-us">
 					<h2>ABOUT US</h2>
 					<br>
 					<p>Armed with four years of training in critical thinking, scientific problem solving, and communication, our members are ready to take on the world's biggest challenges.</p>      
-          <p>This international network aims to foster and maintain a powerful sense of community among the alumni of iCons. We believe that we can carry the collaborative spirit of the program out into the world, and by doing so, improve both it and ourselves.</p>
-        </div>
-      </div><!-- .col-md-7 close -->
+					<p>This international network aims to foster and maintain a powerful sense of community among the alumni of iCons. We believe that we can carry the collaborative spirit of the program out into the world, and by doing so, improve both it and ourselves.</p>
+				</div>
+      </div>
       <div class="col-md-6 col-sm-12 map-wrapper">
 				<div class="map-textbox-wrapper">
 					<div class="map-textbox">

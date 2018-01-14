@@ -1,9 +1,9 @@
 ---
-title: Service Event - 2nd Annual iCons Survival Guide
+title: The 2nd Annual iCons Survival Guide
 date: '2017-12-02'
 layout: post
 author: <a href="https://www.linkedin.com/in/seanrmcgrath/" target="_blank">Sean McGrath</a>
-category: service
+category: Community Event
 ---
 As the iCons program kicked off its eighth year, ten of our alumni returned to the UMass campus to present the second edition of the iCons Survival Guide, our annual event focused on preparing current undergraduates with the tools they need for success in the iCons program.
 

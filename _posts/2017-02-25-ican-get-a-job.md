@@ -1,9 +1,9 @@
 ---
-title: Career Event - ICAN Get a Job!
+title: ICAN Get a Job!
 layout: post
 author: <a href="https://www.linkedin.com/in/ericalight/" target="_blank">Erica Light</a>
 date: '2017-02-25'
-category: service
+category: Community Event
 ---
 This February the network held its annual on-campus event focused on helping current iCons students get a head start on their careers. Nearly a dozen of our amazing alumni traveled back to Amherst for "ICAN Get a Job!"
 

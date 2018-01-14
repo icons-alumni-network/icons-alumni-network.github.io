@@ -30,10 +30,10 @@ markdown: kramdown
 
 # Category descriptions (for archive pages)
 descriptions:
-  - cat: Service
+  - cat: Community Event
     desc: "Community service events"
 
-  - cat: Social
+  - cat: Social Event
     desc: "Social events for alumni"
 
   - cat: General

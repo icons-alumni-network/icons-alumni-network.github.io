@@ -38,10 +38,10 @@ order: 1
 				<div class="col-md-8 col-sm-10 featured-post-text">
 					<h2>FEATURED EVENT</h2>
 					<a href="{{ post.url }}">
-						{{ post.title | replace: 'Social Event -', '' | replace: 'Service Event -', '' }} &mdash; {{ post.date | date_to_long_string }}</p>
+						{{ post.title }} &mdash; {{ post.date | date: "%B %-d, %Y" }}</p>
 					</a>
 					<p>{{ post.excerpt | strip_html | truncate_words: 50 }}</p>
-					<h3 class="events-link"><a href="/events" target="_blank">See all our events</a></h3>
+					<h3 class="events-link"><a href="/posts" target="_blank">See all our events</a></h3>
 				</div>
 			</div>
 		</div>
@@ -120,7 +120,7 @@ order: 1
           <i class="ion-android-share-alt"></i>
           <h4>Social Networking</h4>
 					<p>
-					<b>iCAN</b> aims to bring our members together outside of work as well. We sponsor <a href="/events/social" target="_blank">events, outings and gatherings</a> that help us get to know each other.
+					<b>iCAN</b> aims to bring our members together outside of work as well. We sponsor <a href="/posts/social" target="_blank">events, outings and gatherings</a> that help us get to know each other.
 					</p>
         </div>
       </div>
@@ -129,7 +129,7 @@ order: 1
           <i class="ion-android-globe"></i>
           <h4>Community Service</h4>
 						<p>
-						<b>iCAN</b> is proud to give back to the community. The network organizes various <a href="/events/service" target="_blank">service events, usually with a technical or academic focus.</a>
+						<b>iCAN</b> is proud to give back to the community. The network organizes various <a href="/posts/community" target="_blank">service events, usually with a technical or academic focus.</a>
 						</p>
         </div>
       </div>

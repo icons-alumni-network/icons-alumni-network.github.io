@@ -1,9 +1,9 @@
 ---
-title: Social Event - ICAN BBQ with Scott Auerbach
+title: ICAN BBQ with Scott Auerbach
 layout: post
 author: <a href="https://www.linkedin.com/in/seanrmcgrath/" target="_blank">Sean McGrath</a>
 date: '2017-06-19'
-category: social
+category: Social Event
 ---
 Last weekend ICAN celebrated its one year anniversary with burgers, beers, and the one and only Scott Auerbach!
 

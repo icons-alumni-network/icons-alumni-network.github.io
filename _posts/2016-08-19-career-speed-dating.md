@@ -1,9 +1,9 @@
 ---
-title: Service Event - Career Speed Dating Workshop
+title: Career Speed Dating Workshop
 date: '2016-08-19'
 layout: post
 author: <a href="https://www.linkedin.com/in/kevin-cavanaugh-73262880/" target="_blank">Kevin Cavanaugh</a> and <a href="https://www.linkedin.com/in/matthew-richard-9b5a6862/" target="_blank">Matt Richard</a>
-category: service
+category: Community Event
 ---
 On August 17, the network partnered with [Junior Achievement of Northern New England](http://janewengland.org/){:target="_blank"} to give students a glimpse into the working world. [Matt Richard](https://www.linkedin.com/in/matthew-richard-9b5a6862/){:target="_blank"} and [Emily Travers](https://www.linkedin.com/in/emily-travers-72358497/){:target="_blank"} participated in a round-robin panel discussion called the "Careers Speed Dating Workshop" as part of Junior Achievement's annual Summer Institute.
 

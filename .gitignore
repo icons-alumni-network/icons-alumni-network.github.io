@@ -3,4 +3,6 @@ _site/
 *.swp
 *.swo
 *.swn
+*.swl
+*.swm
 .env

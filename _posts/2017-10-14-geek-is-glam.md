@@ -3,7 +3,8 @@ title: Geek is Glam, Round 2
 date: '2017-10-14'
 layout: post
 author: <a href="https://www.linkedin.com/in/meaghan-molloy-7311ba68/" target="_blank">Meaghan Molloy</a>
-category: Community Event
+category_display: Community Event
+category: community
 ---
 On October 14th 2017, iCAN volunteered at the Geek is Glam Science Technology Engineering and Math (STEM) event for the second year in a row. Geek is Glam is an annual one day event at Worcester Polytechnic Institute organized by the [Girl Scouts of Central and Western Massachusetts](http://www.gscwm.org/). Through an engaging day of hands-on workshops and interactive career panels, the girls in grades 4-8 are introduced to new areas of science and engineering. The event aims to inspire the next generation of female scientists. 
 

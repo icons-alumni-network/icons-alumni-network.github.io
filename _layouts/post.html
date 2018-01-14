@@ -13,7 +13,7 @@ layout: page
 							<h1 class="post-title">{{ page.title }}</h1>
 							<div class="post-info-wrapper">
 								<p class="italic">
-								By <span class="bold">{{ page.author }}</span> on <span class="bold">{{ page.date | date: "%B %-d, %Y" }}</span> in category <strong>{{ page.category }}</strong>
+								By <span class="bold">{{ page.author }}</span> on <span class="bold">{{ page.date | date: "%B %-d, %Y" }}</span> in category <a href="/posts/{{ page.category }}">{{ page.category_display }}</a>
 								</p>
 							</div>
 							<hr />

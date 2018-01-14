@@ -3,7 +3,8 @@ title: iCons Case Study
 layout: post
 author: <a href="https://www.linkedin.com/in/kevin-cavanaugh-73262880/" target="_blank">Kevin Cavanaugh</a>
 date: '2017-08-04'
-category: Community Event
+category_display: Community Event
+category: community
 ---
 On August 4, iCAN bridged new territory by showcasing the first ever iCons-style case study presented to high-school students grades 9-12. Seven alumni gathered at MIT as part of Junior Achievement's Summer Institute to present a case study highlighting food deserts to over 40 students from various Massachusetts high schools. 
 

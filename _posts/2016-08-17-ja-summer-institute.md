@@ -3,7 +3,8 @@ title: JA Summer Insitute
 date: '2016-08-17'
 layout: post
 author: <a href="https://www.linkedin.com/in/kevin-cavanaugh-73262880/" target="_blank">Kevin Cavanuagh</a>
-category: Community Event
+category_display: Community Event
+category: community
 ---
 On August 17, the network partnered with [Junior Achievement of Northern New England](http://janewengland.org/){:target="_blank"} for a round robin workshop in which alumni engaged with high school students for meaningful conversations about how to prepare for and excel in college and life after college. Five alumni traveled to Northeastern University to give a presentation called "Evolution of Life: Leaving the Nest" as part of Junior Achievement's annual Summer Institute. 
 

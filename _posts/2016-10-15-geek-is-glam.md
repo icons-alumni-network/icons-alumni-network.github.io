@@ -3,7 +3,8 @@ title: Geek is Glam!
 date: '2016-10-15'
 layout: post
 author: <a href="https://www.linkedin.com/in/meaghan-molloy-7311ba68/" target="_blank">Meaghan Molloy</a>
-category: Community Event
+category_display: Community Event
+category: community
 ---
 On October 15th 2016, iCAN traveled to Worcester to volunteer with the [Girl Scouts of Central and Western Massachusetts](http://www.gscwm.org/){:target="_blank"} in the annual Geek is Glam Science Technology Engineering and Math (STEM) event.
 

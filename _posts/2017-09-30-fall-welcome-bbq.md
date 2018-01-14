@@ -3,7 +3,8 @@ title: 2017 Fall Welcome BBQ
 layout: post
 author: <a href="https://www.linkedin.com/in/seanrmcgrath/" target="_blank">Sean McGrath</a>
 date: '2017-09-30'
-category: Social Event
+category_display: Social Event
+category: social
 ---
 To welcome recent graduates of the iCons program to the Boston area, ICAN held its first Fall BBQ. A little bit of rain didn't stop us from having a great time!
 

@@ -20,27 +20,6 @@ order: 2
 </section>
 <div class="container">
 	{% for post in site.posts %}
-		<div class="row post-area">
-			<div class="col-md-5">
-				<div class="post-header">
-					<a href="{{ post.url }}" class="bold">{{ post.title }}</a>
-					<p class="post-info">{{post.author}} &mdash; {{ post.date | date: "%B %-d, %Y" }}</p>
-				</div>
-				<div class="post-body">
-					<p>{{ post.excerpt | strip_html | truncate_words: 50 }}</p>
-					<p class="post-link"><a href="{{ post.url }}">Read full post ></a></p>
-				</div>
-			</div>
-			{% assign images = post.content | split:"<img " %}
-			{% for image in images %}
-				{% if image contains 'src' %}
-					{% assign html = image | split:"/>" | first %}
-						<div class="col-md-6 col-md-offset-1">
-							<a href="{{ post.url }}"><img {{ html }} /></a>
-						</div>
-					{% break %}
-				{% endif %}
-			{% endfor %}
-		</div>
+		{% include post_summary.html post=post %}
 	{% endfor %}
 </div>

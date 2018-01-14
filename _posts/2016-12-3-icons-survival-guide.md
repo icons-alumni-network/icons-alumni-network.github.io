@@ -3,7 +3,8 @@ title: iCons Survival Guide
 date: '2016-12-03'
 layout: post
 author: Isaac Han
-category: Community Event
+category_display: Community Event
+category: community
 ---
 As part of an effort to give back to the campus community, eight members of the network travelled back to campus in December of 2016 to present the iCons Survival Guide.
 

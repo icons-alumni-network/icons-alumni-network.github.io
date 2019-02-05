@@ -6,7 +6,7 @@ date: '2017-09-30'
 category_display: Social Event
 category: social
 ---
-To welcome recent graduates of the iCons program to the Boston area, ICAN held its first Fall BBQ. A little bit of rain didn't stop us from having a great time!
+To welcome recent graduates of the iCons program to the Boston area, iCAN held its first Fall BBQ. A little bit of rain didn't stop us from having a great time!
 
 <img src="/img/2017-09-30-fall-welcome-bbq/group-photo.jpg" width="800" alt="group photo" />
 

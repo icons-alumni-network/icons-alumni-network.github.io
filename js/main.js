@@ -1,6 +1,3 @@
-// https://stackoverflow.com/questions/6274339/how-can-i-shuffle-an-array
-// shuffles an array in place
-
 // Declare a namespace for our functions and objects
 var ICAN = {};
 
@@ -9,6 +6,9 @@ ICAN.utils = {};
 ICAN.map = {};
 
 // ----UTILS----
+
+// https://stackoverflow.com/questions/6274339/how-can-i-shuffle-an-array
+// shuffles an array in place
 
 ICAN.utils.shuffle = function (a) {
     var j, x, i;

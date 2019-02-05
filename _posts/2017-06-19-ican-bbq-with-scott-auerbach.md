@@ -1,12 +1,12 @@
 ---
-title: ICAN BBQ with Scott Auerbach
+title: iCAN BBQ with Scott Auerbach
 layout: post
 author: <a href="https://www.linkedin.com/in/seanrmcgrath/" target="_blank">Sean McGrath</a>
 date: '2017-06-19'
 category_display: Social Event
 category: social
 ---
-Last weekend ICAN celebrated its one year anniversary with burgers, beers, and the one and only Scott Auerbach!
+Last weekend iCAN celebrated its one year anniversary with burgers, beers, and the one and only Scott Auerbach!
 
 Our annual Boston cookout was a great success, drawing a crowd of hungry young scientists, engineers, and students. Check out the pictures below, and head to our [Facebook](https://www.facebook.com/groups/iconsalumni/){:target="_blank"} page for more information.
 

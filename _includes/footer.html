@@ -5,14 +5,15 @@
       <div class="col-md-12">
         <div class="footer-menu">
           <ul>
-						{% assign page_list = site.pages | sort:"order" %}
-						{% for page in page_list %}
-							{% if page.title and page.order %}
-								<li><a href="{{ page.url }}">{{ page.title }}</a></li>
-							{% endif %}
-						{% endfor %}
-						<li><a href="https://www.facebook.com/groups/iconsalumni/"><i class="icon ion-social-facebook"></i></a></li>
-						<li><a href="https://www.linkedin.com/groups/7494620"><i class="icon ion-social-linkedin"></i></a></li>
+            {% assign page_list = site.pages | sort:"order" %}
+            {% for page in page_list %}
+              {% if page.title and page.order %}
+                <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+              {% endif %}
+            {% endfor %}
+            <li><a href="https://forum.iconsalumni.org/" target="_blank">Forum</a></li>
+            <li><a href="https://www.facebook.com/groups/iconsalumni/" aria-label="facebook"><i class="icon ion-social-facebook"></i></a></li>
+            <li><a href="https://www.linkedin.com/groups/7494620" aria-label="linkedin"><i class="icon ion-social-linkedin"></i></a></li>
           </ul>
         </div>
         <p>Designed &amp; Developed by the iCons Alumni Network, Inc.</p>

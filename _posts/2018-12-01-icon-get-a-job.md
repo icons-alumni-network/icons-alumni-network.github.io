@@ -1,5 +1,5 @@
 ---
-title: ICAN Get a Job 2018
+title: iCAN Get a Job 2018
 layout: post
 author: <a href="https://www.linkedin.com/in/essaangela/" target="_blank">Angela Essa</a>
 date: '2018-12-01'

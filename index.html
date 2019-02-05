@@ -7,37 +7,37 @@ order: 1
 
 <!-- Slider Start -->
 <section id="slider">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-10 col-md-offset-2">
-        <div class="block">
-					<h1 class="animated fadeInUp">WE ARE READY TO<br> CHANGE THE WORLD</h1>
-          <p class="animated fadeInUp">
-					<b>ICAN</b> is the professional and social network for graduates of <a href="http://icons.cns.umass.edu/" target="_blank" rel="noopener">iCons,</a> a next-generation program of interdisciplinary science and engineering education at the <a href="http://www.umass.edu/" target="_blank">University of Massachusetts.</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="featured-event">
-	<div class="container-fluid">
+	<div class="container">
 		<div class="row">
-			{% assign post = site.posts | first %}
+			<div class="col-md-10 col-md-offset-2">
+				<div class="block">
+					<h1 class="animated fadeInUp">WE ARE READY TO<br> CHANGE THE WORLD</h1>
+					<p class="animated fadeInUp">
+						<b>iCAN</b> is the professional and social network for graduates of <a href="http://icons.cns.umass.edu/" target="_blank" rel="noopener">iCons,</a> a next-generation program of interdisciplinary science and engineering education at the <a href="http://www.umass.edu/" target="_blank">University of Massachusetts.</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="featured-event">
+		<div class="container-fluid">
+			<div class="row">
+				{% assign post = site.posts | first %}
 				{% assign images = post.content | split:"<img " %}
 				{% for image in images %}
 					{% if image contains 'src' %}
 						{% assign html = image | split:"/>" | first %}
-							<div class="col-md-6 img-wrapper">
-								<a href="{{ post.url }}"><img {{ html }} /></a>
-							</div>
+						<div class="col-md-6 img-wrapper">
+							<a href="{{ post.url }}"><img {{ html }} /></a>
+						</div>
 						{% break %}
 					{% endif %}
 				{% endfor %}
-      <div class="col-md-6 col-sm-12 text-wrapper">
-				<div class="col-md-8 col-sm-10 featured-post-text">
-					<h2>FEATURED EVENT</h2>
-					<a href="{{ post.url }}">
+				<div class="col-md-6 col-sm-12 text-wrapper">
+					<div class="col-md-8 col-sm-10 featured-post-text">
+						<h2>FEATURED EVENT</h2>
+						<a href="{{ post.url }}">
 						{{ post.title }} &mdash; {{ post.date | date: "%B %-d, %Y" }}</p>
 					</a>
 					<p>{{ post.excerpt | strip_html | truncate_words: 50 }}</p>
@@ -49,17 +49,17 @@ order: 1
 </section>
 
 <section id="intro">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-6 col-sm-12 text-wrapper">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-6 col-sm-12 text-wrapper">
 				<div class="col-md-8 col-sm-10 about-us">
 					<h2>ABOUT US</h2>
 					<br>
 					<p>Armed with four years of training in critical thinking, scientific problem solving, and communication, our members are ready to take on the world's biggest challenges.</p>      
 					<p>This international network aims to foster and maintain a powerful sense of community among the alumni of iCons. We believe that we can carry the collaborative spirit of the program out into the world, and by doing so, improve both it and ourselves.</p>
 				</div>
-      </div>
-      <div class="col-md-6 col-sm-12 map-wrapper">
+			</div>
+			<div class="col-md-6 col-sm-12 map-wrapper">
 				<div class="map-textbox-wrapper">
 					<div class="map-textbox">
 						<h2>
@@ -68,83 +68,83 @@ order: 1
 					</div>
 				</div>
 				<div id="alumni-map" class="alumni-map"></div>
-      </div><!-- .col-md-5 close -->
-    </div>
-  </div>
+			</div><!-- .col-md-5 close -->
+		</div>
+	</div>
 </section>
 
 <section id="feature">
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-md-4 col-md-offset-6">
-      <h2>GET CONNECTED</h2>
-			<br>
-      <p>Stay in touch with your fellow alumni by joining us on LinkedIn and Facebook!</p>
-			<div class="col-xs-12 social-wrapper">
-				<div class="col-md-6">
-					<a href="https://www.linkedin.com/groups/7494620" class="social-link" target="_blank">
-						<img src="/img/linkedin.svg" />
-					</a>
-				</div>
-				<div class="col-md-6">
-					<a href="https://www.facebook.com/groups/iconsalumni/" class="social-link" target="_blank">
-						<img src="/img/facebook.svg" />
-					</a>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-4 col-md-offset-6">
+				<h2>GET CONNECTED</h2>
+				<br>
+				<p>Stay in touch with your fellow alumni by joining us on LinkedIn and Facebook!</p>
+				<div class="col-xs-12 social-wrapper">
+					<div class="col-xs-5 col-xs-offset-1">
+						<a href="https://www.linkedin.com/groups/7494620" class="social-link" target="_blank">
+							<img src="/img/linkedin.svg" />
+						</a>
+					</div>
+					<div class="col-xs-5">
+						<a href="https://www.facebook.com/groups/iconsalumni/" class="social-link" target="_blank">
+							<img src="/img/facebook.svg" />
+						</a>
+					</div>
 				</div>
 			</div>
-    </div>
-  </div>
-</div>
+		</div>
+	</div>
 </section>
 
 <!-- Service Start -->
 <section id="service">
-  <div class="container">
-    <div class="row">
-      <div class="section-title">
-        <h2>Our Values</h2>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-4">
-        <div class="service-item">
-          <i class="icon ion-briefcase"></i>
-          <h4>Professional Development</h4>
+	<div class="container">
+		<div class="row">
+			<div class="section-title">
+				<h2>Our Values</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4">
+				<div class="service-item">
+					<i class="icon ion-briefcase"></i>
+					<h4>Professional Development</h4>
 					<p>
 						<b>iCAN</b> members work in diverse industries, from biological research to clean energy to software development, and strive to be leaders in these fields. The primary function of iCAN is to foster the exchange of ideas, resources, and people between academic and industrial disciplines.
 					</p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="service-item">
-          <i class="ion-android-share-alt"></i>
-          <h4>Social Networking</h4>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="service-item">
+					<i class="ion-android-share-alt"></i>
+					<h4>Social Networking</h4>
 					<p>
-					<b>iCAN</b> aims to bring our members together outside of work as well. We sponsor <a href="/posts/social" target="_blank">events, outings and gatherings</a> that help us get to know each other.
+						<b>iCAN</b> aims to bring our members together outside of work as well. We sponsor <a href="/posts/social" target="_blank">events, outings and gatherings</a> that help us get to know each other.
 					</p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="service-item">
-          <i class="ion-android-globe"></i>
-          <h4>Community Service</h4>
-						<p>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="service-item">
+					<i class="ion-android-globe"></i>
+					<h4>Community Service</h4>
+					<p>
 						<b>iCAN</b> is proud to give back to the community. The network organizes various <a href="/posts/community" target="_blank">service events, usually with a technical or academic focus.</a>
-						</p>
-        </div>
-      </div>
-    </div>
-  </div>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
 </section>
 <!-- Call to action Start -->
 <section id="call-to-action">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="block">
-          <h2>We need your support</h2>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="block">
+					<h2>We need your support</h2>
 					<p><b>iCAN</b> is a registered non-profit organization.</p>
-				 <p>100% of all donations go directly towards our social and service events and the maintenance of our web presence.</p>
+					<p>100% of all donations go directly towards our social and service events and the maintenance of our web presence.</p>
 					<br>
 					<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 						<input type="hidden" name="cmd" value="_s-xclick">
@@ -152,8 +152,8 @@ order: 1
 						<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 						<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 					</form>
-        </div>
-      </div>
-    </div>
-  </div>
+				</div>
+			</div>
+		</div>
+	</div>
 </section>

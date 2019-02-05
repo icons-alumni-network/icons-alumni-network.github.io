@@ -14,11 +14,12 @@ keep_files:
 
 
 # Site settings
-title: ICAN | Icons Alumni Network
+title: iCAN | Icons Alumni Network
 subtitle: "The official website for the alumni of the Integrated Concentration in Natural Science at UMass Amherst"
-basetitle: ICAN | 
+basetitle: iCAN | 
 url: "www.iconsalumni.org" # the base hostname & protocol for your site
 baseurl: ""
+forumurl: "forum.iconsalumni.org"
 cover: "/assets/cover.png"
 logo: "/assets/logo.png"
 
@@ -37,7 +38,7 @@ descriptions:
     desc: "Social events for alumni"
 
   - cat: General
-    desc: "General updates about ICAN"
+    desc: "General updates about iCAN"
 
 gems:
   - jekyll-sitemap

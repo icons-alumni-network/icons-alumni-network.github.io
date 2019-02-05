@@ -1,12 +1,12 @@
 ---
-title: ICAN Get a Job!
+title: iCAN Get a Job!
 layout: post
 author: <a href="https://www.linkedin.com/in/ericalight/" target="_blank">Erica Light</a>
 date: '2017-02-25'
 category_display: Community Event
 category: community
 ---
-This February the network held its annual on-campus event focused on helping current iCons students get a head start on their careers. Nearly a dozen of our amazing alumni traveled back to Amherst for "ICAN Get a Job!"
+This February the network held its annual on-campus event focused on helping current iCons students get a head start on their careers. Nearly a dozen of our amazing alumni traveled back to Amherst for "iCAN Get a Job!"
 
 {: .image}
 <img src="/img/ican_get_a_job/DSC_0226.JPG" width="800" alt="" />
